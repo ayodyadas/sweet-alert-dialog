@@ -525,6 +525,7 @@ public class SweetAlertDialog extends Dialog implements View.OnClickListener {
     @Override
     public void cancel() {
         dismissWithAnimation(true);
+        this.dismiss();
     }
 
     /**
